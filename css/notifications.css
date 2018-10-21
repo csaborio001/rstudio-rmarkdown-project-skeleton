@@ -1,0 +1,67 @@
+.note{
+  background-color: #f0f7fb;
+  background-image: url(../img/css-box-icon-3.png);
+  border: solid 1px #3498db;
+}
+
+.noteAlt {
+  border: none;
+  border-left: solid 4px #3498db;
+}
+
+.warning{
+  background-color: #F9E7E5;
+  background-image: url(../img/css-box-icon-4.png);
+  border: solid 1px #D16D63;
+}
+
+.warningAlt {
+  border: none;
+  border-left: solid 4px #D16D63;
+}
+
+.example{
+  background-color: #E6F6F0;
+  background-image: url(../img/css-box-icon-2.png);
+  border: solid 1px #2AB168;
+}
+
+.exampleAlt {
+  border: none;
+  border-left: solid 4px #2AB168;
+}
+
+.tip{
+  background-color: #FFFAEB;
+  background-image: url(../img/css-box-icon-1.png);
+  border: solid 1px #F2C936;
+}
+
+.tipAlt {
+  border: none;
+  border-left: solid 4px #F2C936;
+}
+
+
+
+
+.notificationAlt {
+     line-height: 1.8em;
+     overflow: hidden;
+     padding: 15px 60px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     background-position: 9px 0px;
+     background-repeat: no-repeat;
+}
+
+.notification {
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     background-position: 9px 0px;
+     background-repeat: no-repeat;
+     border-radius: 6px;
+     line-height: 1.8em;
+     overflow: hidden;
+     padding: 15px 60px;     
+}

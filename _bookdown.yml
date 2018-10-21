@@ -1,0 +1,9 @@
+book_filename: "your_documentation_name"
+language:
+  ui:
+    chapter_name: "Section "
+delete_merged_file: true
+
+rmd_files: [
+  'index.Rmd' # include more files to build here...
+]

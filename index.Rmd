@@ -1,0 +1,28 @@
+---
+title: <span style="font-size:125%; font-family:Roboto; font-style:normal">Documentation Title</span>
+author: "Your Name"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook
+always_allow_html: yes
+documentclass: book
+description: "Documentation for the CESAA website prepared by ScorpioTek"
+---
+```{r echo=FALSE}
+
+#define variables here
+
+```
+# Start Documenting
+
+<div class="notificationAlt note noteAlt">This is a note</div>
+<div class="notificationAlt example exampleAlt">This is an example</div>
+<div class="notificationAlt tip tipAlt">This is a tip</div>
+<div class="notificationAlt warning warningAlt">This is a warning</div>
+
+---
+
+
+
+

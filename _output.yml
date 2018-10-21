@@ -1,0 +1,55 @@
+bookdown::gitbook:
+    #output:
+      #theme: sandstone
+      #highlight: zenburn
+    css: [css/clean.css, css/notifications.css, 'https://use.fontawesome.com/releases/v5.3.1/css/all.css']
+    font-import: https://fonts.googleapis.com/css?family=Roboto|Open+Sans
+    font-family: 'Roboto'
+    number_sections: true
+    split_by: rmd
+    config:
+      df_print: kable
+      highlight: pygments
+      edit : null
+      download: null
+      search: yes
+      sharing:
+        facebook: no
+        twitter: no
+        google: no
+        weibo: no
+        instapper: no
+        vk: no
+        all: ['twitter', 'facebook', 'google', 'weibo', 'instapaper']
+      toc:
+        depth: 2
+        collapse: false
+        scroll_highlight: yes
+        before: |
+          <li class='before'><a href="./">Your Documentation Name</a></li>
+        after: |
+         <li class='after'">
+            <a href="">
+               <img src="" style="width:25%; padding:0px 0; display:block; margin: 0 auto;" alt="">
+            </a>
+         </li>
+
+         <li class='after'">
+            <div style='text-align:center'>
+               <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <i class="fab fa-creative-commons fa-lg"></i>
+                  <i class="fab fa-creative-commons-by fa-lg"></i>
+                  <i class="fab fa-creative-commons-sa fa-lg"></i>
+               </a>
+            </div>
+         </li>
+#      edit:
+#        link: https://github.com/m-clark/workshops/
+#      highlight: pygments
+
+# bookdown::pdf_book:
+#   includes:
+#     in_header: preamble.tex
+#   latex_engine: xelatex
+#   citation_package: natbib
+# bookdown::epub_book: default
